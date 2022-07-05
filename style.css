@@ -1,0 +1,25 @@
+.hero-banner {
+    background-image: url(images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.save-childbd {
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.save-childbd h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+    text-align: center;
+}
+
+.save-childbd p {
+    font-size: 16px;
+    color: #fff;
+}
