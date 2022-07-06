@@ -7,6 +7,7 @@ h1 {
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
     margin: 0px;
+    text-transform: capitalize;
 }
 
 p {
@@ -18,7 +19,8 @@ p {
 
 /* hero-banner section */
 .hero-banner {
-    background-image: url(images/banner.jpg);
+    /* background-image: url(css/img/banner.jpg); */
+    background-image: url('images/banner.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -116,4 +118,76 @@ section.donate-today p {
 
 .donate-plan p {
     text-align: left;
+}
+
+/* importance child health */
+
+section.child-mental-health {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cm-health-img.half-width img {
+    width: 100%;
+}
+
+.cm-health-contant.half-width {
+    padding: 100px;
+    text-align: left;
+}
+
+.cm-health-contant.half-width p {
+    text-align: left;
+}
+
+.half-width {
+    width: 40%;
+    margin: 0 auto;
+}
+
+/* get in tuch */
+
+.get-in-tuch {
+    width: 50%;
+    text-align: center;
+    background-color: #00000038;
+    padding: 100px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.get-in-tuch input {
+    font-size: 14px;
+    width: 200px;
+    height: 40px;
+    text-align: left;
+    text-transform: capitalize;
+    background-color: #FFF;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 10px;
+}
+
+a.get-submit-btn {
+    font-size: 14px;
+    padding: 11px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -5px;
+    background-color: yellowgreen;
+}
+
+/* footer */
+footer {
+    background-color: cadetblue;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
 }
