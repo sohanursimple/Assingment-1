@@ -1,3 +1,22 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+/* hero-banner section */
 .hero-banner {
     background-image: url(images/banner.jpg);
     background-repeat: no-repeat;
@@ -12,14 +31,89 @@
 }
 
 .save-childbd h1 {
+    color: #fff;
+    text-align: center;
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
     font-size: 54px;
     line-height: 54px;
-    text-align: center;
+    font-weight: 700;
 }
 
 .save-childbd p {
     font-size: 16px;
     color: #fff;
+    padding: 20px;
+}
+
+.donate-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    background-color: yellowgreen;
+    margin-top: 10px;
+
+
+}
+
+/* donate-today section */
+section.donate-today {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.donate-today-heading {
+    text-align: center;
+}
+
+.donate-amount {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.donate-single-amount {
+    padding: 25px 35px;
+    margin: 0px 30px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.active {
+    border-radius: 5px;
+    border: 2px solid red;
+    background-color: aliceblue;
+}
+
+.custom-amnout {
+    width: 600px;
+    border-bottom: 2px solid red;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* section new */
+.donate-system-about {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.donate-plan {
+    width: 20%;
+    padding: 30px;
+    border: 1px solid red;
+    margin: 0px 20px;
+}
+
+.donate-plan p {
+    text-align: left;
 }
