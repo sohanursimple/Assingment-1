@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
 
 h1 {
@@ -19,7 +20,6 @@ p {
 
 /* hero-banner section */
 .hero-banner {
-    /* background-image: url(css/img/banner.jpg); */
     background-image: url('images/banner.jpg');
     background-repeat: no-repeat;
     background-position: center center;
@@ -57,7 +57,8 @@ p {
 }
 
 /* donate-today section */
-section.donate-today {
+
+.donate-today {
     text-align: center;
     padding: 50px 0px;
 }
@@ -76,21 +77,20 @@ section.donate-today p {
 }
 
 .donate-single-amount {
-    padding: 25px 35px;
+    padding: 10px 35px;
     margin: 0px 30px;
     font-weight: 600;
     font-size: 18px;
 }
 
 .active {
-    border-radius: 5px;
-    border: 2px solid red;
+    border: 2px solid yellowgreen;
     background-color: aliceblue;
 }
 
 .custom-amnout {
     width: 600px;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid yellowgreen;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -102,6 +102,7 @@ section.donate-today p {
 }
 
 /* section new */
+
 .donate-system-about {
     display: flex;
     flex-flow: row;
@@ -112,8 +113,17 @@ section.donate-today p {
 .donate-plan {
     width: 20%;
     padding: 30px;
-    border: 1px solid red;
+    border: 2px solid yellowgreen;
     margin: 0px 20px;
+}
+
+.donate-plan img {
+    width: 70px;
+    margin: 0px;
+}
+
+.donate-plan h2 {
+    line-height: 20px;
 }
 
 .donate-plan p {
@@ -122,32 +132,37 @@ section.donate-today p {
 
 /* importance child health */
 
-section.child-mental-health {
+.social-policy {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    width: 80%;
     margin: 0 auto;
+    padding: 100px;
 }
 
-.cm-health-img.half-width img {
+.social-policy-media img {
     width: 100%;
 }
 
-.cm-health-contant.half-width {
+.social-policy.half-width {
     padding: 100px;
     text-align: left;
 }
 
-.cm-health-contant.half-width p {
-    text-align: left;
+.social-policy p {
+    text-align: justify;
 }
 
 .half-width {
     width: 40%;
     margin: 0 auto;
+}
+
+.social-policy-info .half-width a {
+    margin-top: 20px;
+    display: inline-block;
 }
 
 /* get in tuch */
