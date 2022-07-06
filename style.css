@@ -52,8 +52,6 @@ p {
     padding: 10px 30px;
     background-color: yellowgreen;
     margin-top: 10px;
-
-
 }
 
 /* donate-today section */
@@ -62,8 +60,10 @@ section.donate-today {
     padding: 50px 0px;
 }
 
-.donate-today-heading {
-    text-align: center;
+section.donate-today p {
+    width: 65%;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 .donate-amount {
